@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         double newNumber = number * 3.75;
 
-        Toast.makeText(this, String.format("%.2f",newNumber) + " SR", Toast.LENGTH_SHORT).show();
-
+        //Toast.makeText(this, String.format("%.2f",newNumber) + " SR", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, newNumber + " $", Toast.LENGTH_SHORT).show();
     }
 }
